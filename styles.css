@@ -17,8 +17,24 @@ body {
 }
 /* select the <a> inside navigation */
 
-.navigation a{
+.navigation a {
     padding: 12px;
     text-decoration:none;
     color:rgb(1, 81, 1);
+}
+.navigation a:hover {
+    background-color: lightgreen  ;
+}
+.banner {
+    background-image: url("steve-smith-WfRPUfT--gY-unsplash.jpg");
+    min-height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.banner h2 {
+    font-size: 400%;
+    display: flex;
+    align-self: flex-end;
 }
